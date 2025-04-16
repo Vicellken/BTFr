@@ -4,12 +4,14 @@
 \alias{response_curves}
 \title{Create Species Response Curves}
 \usage{
-response_curves(modern_mod, species_select = NULL)
+response_curves(modern_mod, species_select = NULL, species_order = NULL)
 }
 \arguments{
 \item{modern_mod}{An object of class \code{BTFr} from \code{\link{run_modern}}}
 
 \item{species_select}{a vector of species names for which you want to create response curves}
+
+\item{species_order}{a vector of species names for how you want the species ordered}
 }
 \value{
 Response curve data files (empirical data and model-based estimates) and species response curve plots
