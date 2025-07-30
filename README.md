@@ -50,7 +50,7 @@ For detailed information about parallel processing features, see `PARALLEL_OPTIM
 
 ## Workflow Example (parallel processing)
 
-see [test.R](test.R) for a complete workflow example.
+see [test.R](test.R) for a workflow example with parallel optimization.
 
 ### Performance Benchmarks
 
